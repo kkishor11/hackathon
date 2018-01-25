@@ -51,7 +51,7 @@ h1, h2, h3, h4 {
 }
 
 header {
-  background: #726f77;
+  background: #2b2e48;
   padding: 10px;
   -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
@@ -59,14 +59,14 @@ header {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
 }
 header .logo {
-  color: #f9f9f9;
+  color: #f27c7c;
   float: left;
   font-family: "Dosis", arial, tahoma, verdana;
   font-size: 22px;
   font-weight: 500;
 }
 header .logo > span {
-  color: aliceblue;
+  color: #f7aaaa;
   font-weight: 300;
 }
 header .social {
@@ -92,7 +92,7 @@ header .social .btn {
   content: "";
   width: 3px;
   height: 100%;
-  background: #ee4d4d;
+  background: #f27c7c;
   left: 50%;
   top: 0;
   position: absolute;
@@ -108,7 +108,7 @@ header .social .btn {
   position: relative;
 }
 #timeline .timeline-item .timeline-icon {
-  background: #ee4d4d;
+  background: #f27c7c;
   width: 50px;
   height: 50px;
   position: absolute;
@@ -123,8 +123,8 @@ header .social .btn {
 }
 #timeline .timeline-item .timeline-icon svg {
   position: relative;
-  top: 14px;
-  left: 14px;
+  top: 12px;
+  left: 12px;
 }
 #timeline .timeline-item .timeline-content {
   width: 45%;
@@ -145,7 +145,7 @@ header .social .btn {
 }
 #timeline .timeline-item .timeline-content h2 {
   padding: 15px;
-  background: #ee4d4d;
+  background: #f27c7c;
   color: #fff;
   margin: -20px -20px 0 -20px;
   font-weight: 300;
@@ -154,6 +154,17 @@ header .social .btn {
   -ms-border-radius: 3px 3px 0 0;
   border-radius: 3px 3px 0 0;
 }
+#timeline .timeline-item .timeline-content h3 {
+    padding: 15px;
+    background: #f27c7c;
+    color: #2b2e48;
+    margin: -20px -20px 0 -20px;
+    font-weight: 600;
+    -webkit-border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    -ms-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+  }
 #timeline .timeline-item .timeline-content:before {
   content: '';
   position: absolute;
@@ -163,7 +174,7 @@ header .social .btn {
   height: 0;
   border-top: 7px solid transparent;
   border-bottom: 7px solid transparent;
-  border-left: 7px solid #ee4d4d;
+  border-left: 7px solid #f27c7c;
 }
 #timeline .timeline-item .timeline-content.right {
   float: right;
@@ -173,15 +184,15 @@ header .social .btn {
   right: 45%;
   left: inherit;
   border-left: 0;
-  border-right: 7px solid #ee4d4d;
+  border-right: 7px solid #f27c7c;
 }
 
 .btn {
   padding: 5px 15px;
   text-decoration: none;
   background: transparent;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid #f27c7c;
+  color: #f27c7c;
   display: inline-block;
   position: relative;
   text-transform: uppercase;
@@ -194,10 +205,10 @@ header .social .btn {
   -moz-transition: background 0.3s ease;
   -ms-transition: background 0.3s ease;
   transition: background 0.3s ease;
-  -webkit-box-shadow: 2px 2px 0 #fff;
-  -moz-box-shadow: 2px 2px 0 #fff;
-  -ms-box-shadow: 2px 2px 0 #fff;
-  box-shadow: 2px 2px 0 #fff;
+  -webkit-box-shadow: 2px 2px 0 #f27c7c;
+  -moz-box-shadow: 2px 2px 0 #f27c7c;
+  -ms-box-shadow: 2px 2px 0 #f27c7c;
+  box-shadow: 2px 2px 0 #f27c7c;
 }
 .btn:hover {
   box-shadow: none;
@@ -226,7 +237,7 @@ header .social .btn {
     left: 10%;
     margin-left: -6px;
     border-left: 0;
-    border-right: 7px solid #ee4d4d;
+    border-right: 7px solid #f27c7c;
   }
   #timeline .timeline-item .timeline-icon {
     left: 0;
