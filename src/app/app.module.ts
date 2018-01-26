@@ -1,3 +1,5 @@
+import { TrackingService } from './tracking.service';
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { NgxCarouselModule } from 'ngx-carousel';
@@ -19,9 +21,9 @@ import { TimelineDetailComponent } from './timeline-detail/timeline-detail.compo
     TimelineDetailComponent
   ],
   imports: [
-    BrowserModule, NgxCarouselModule, AppRoutingModule
+    BrowserModule, NgxCarouselModule, AppRoutingModule, FormsModule
   ],
-  providers: [],
+  providers: [TrackingService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

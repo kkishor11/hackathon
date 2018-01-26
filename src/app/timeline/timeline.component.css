@@ -17,12 +17,21 @@ header:before,
   -moz-box-sizing: border-box;
 }
 
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
 .form-group>label,
-input,
-small {
+input {
+  padding: 10px;
   font-family: "Dosis", arial, tahoma, verdana;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 20px;
   display: block;
+  margin-top: 10px;
 }
 
 body,

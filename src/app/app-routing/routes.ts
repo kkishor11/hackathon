@@ -6,6 +6,6 @@ import { Routes } from '@angular/router';
 export const routes: Routes = [
     { path: 'home', component: HomeComponent },
     { path: 'timeline', component: TimelineComponent },
-    { path: 'timeline-detail', component: TimelineDetailComponent },
+    { path: 'timeline/:pnr', component: TimelineDetailComponent },
     { path: '', redirectTo: '/home', pathMatch: 'full' }
 ];
