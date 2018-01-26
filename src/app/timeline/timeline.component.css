@@ -1,18 +1,32 @@
 @import "https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700";
-header:after, #timeline .timeline-item:after, header:before, #timeline .timeline-item:before {
+header:after,
+#timeline .timeline-item:after,
+header:before,
+#timeline .timeline-item:before {
   content: '';
   display: block;
   width: 100%;
   clear: both;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
 
-body, html {
+.form-group>label,
+input,
+small {
+  font-family: "Dosis", arial, tahoma, verdana;
+  font-weight: 500;
+  display: block;
+}
+
+body,
+html {
   height: 100%;
 }
 
@@ -40,7 +54,10 @@ a {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: "Dosis", arial, tahoma, verdana;
   font-weight: 500;
 }
@@ -58,6 +75,7 @@ header {
   -ms-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
 }
+
 header .logo {
   color: #f27c7c;
   float: left;
@@ -65,13 +83,16 @@ header .logo {
   font-size: 22px;
   font-weight: 500;
 }
-header .logo > span {
+
+header .logo>span {
   color: #f7aaaa;
   font-weight: 300;
 }
+
 header .social {
   float: right;
 }
+
 header .social .btn {
   font-family: "Dosis";
   font-size: 14px;
@@ -88,6 +109,7 @@ header .social .btn {
   -ms-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
+
 #timeline:before {
   content: "";
   width: 3px;
@@ -97,16 +119,19 @@ header .social .btn {
   top: 0;
   position: absolute;
 }
+
 #timeline:after {
   content: "";
   clear: both;
   display: table;
   width: 100%;
 }
+
 #timeline .timeline-item {
   margin-bottom: 50px;
   position: relative;
 }
+
 #timeline .timeline-item .timeline-icon {
   background: #f27c7c;
   width: 50px;
@@ -121,11 +146,13 @@ header .social .btn {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
+
 #timeline .timeline-item .timeline-icon svg {
   position: relative;
   top: 12px;
   left: 12px;
 }
+
 #timeline .timeline-item .timeline-content {
   width: 45%;
   background: #fff;
@@ -143,6 +170,7 @@ header .social .btn {
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
 #timeline .timeline-item .timeline-content h2 {
   padding: 15px;
   background: #f27c7c;
@@ -154,17 +182,19 @@ header .social .btn {
   -ms-border-radius: 3px 3px 0 0;
   border-radius: 3px 3px 0 0;
 }
+
 #timeline .timeline-item .timeline-content h3 {
-    padding: 15px;
-    background: #f27c7c;
-    color: #2b2e48;
-    margin: -20px -20px 0 -20px;
-    font-weight: 600;
-    -webkit-border-radius: 3px 3px 0 0;
-    -moz-border-radius: 3px 3px 0 0;
-    -ms-border-radius: 3px 3px 0 0;
-    border-radius: 3px 3px 0 0;
-  }
+  padding: 15px;
+  background: #f27c7c;
+  color: #2b2e48;
+  margin: -20px -20px 0 -20px;
+  font-weight: 600;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  -ms-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+
 #timeline .timeline-item .timeline-content:before {
   content: '';
   position: absolute;
@@ -176,9 +206,11 @@ header .social .btn {
   border-bottom: 7px solid transparent;
   border-left: 7px solid #f27c7c;
 }
+
 #timeline .timeline-item .timeline-content.right {
   float: right;
 }
+
 #timeline .timeline-item .timeline-content.right:before {
   content: '';
   right: 45%;
@@ -210,6 +242,7 @@ header .social .btn {
   -ms-box-shadow: 2px 2px 0 #f27c7c;
   box-shadow: 2px 2px 0 #f27c7c;
 }
+
 .btn:hover {
   box-shadow: none;
   top: 2px;
@@ -233,7 +266,8 @@ header .social .btn {
     width: 90%;
     float: right;
   }
-  #timeline .timeline-item .timeline-content:before, #timeline .timeline-item .timeline-content.right:before {
+  #timeline .timeline-item .timeline-content:before,
+  #timeline .timeline-item .timeline-content.right:before {
     left: 10%;
     margin-left: -6px;
     border-left: 0;

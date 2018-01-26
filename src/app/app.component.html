@@ -1,13 +1,16 @@
 <header>
   <div class="container">
     <h1 class="logo">
-      Emirates<span>Journey Tracker</span>
+      TRIPS
+      <span>Ginie</span>
     </h1>
     <section class="social">
-      <a class="btn" href="https://www.facebook.com/Emirates/">Facebook</a>
-      <a class="btn" href="https://twitter.com/emirates">Twitter</a>
+      <a class="btn" routerLink="/home">Home</a>
+      <a class="btn" routerLink="/timeline">Journey Tracker</a>
+      <a class="btn" routerLink="/journal">Trip Journal</a>
+      <a class="btn" routerLink="/tbd">TBD</a>
+      <a class="btn" href="https://www.facebook.com/Emirates/">Abous Us</a>
     </section>
   </div>
 </header>
-<app-timeline></app-timeline>
-
+<router-outlet></router-outlet>
